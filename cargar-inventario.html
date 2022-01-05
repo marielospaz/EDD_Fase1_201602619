@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carga de Inventario</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body id="body">
+    <nav class="nav">
+        <ul class="lis">
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click"> 
+                    <img src="assets/docs.svg" class="list__img">
+                     <a href="#" class="nav__link">Menu</a>
+                 </div>
+
+                 <ul class="list__show">
+                     <li class="list__inside">
+                         <a href="cargar-inventario.html" class="nav__link nav__link--inside">Carga Inventario</a>
+                     </li>
+
+                     <li class="list__inside">
+                        <a href="cargar-rutas.html" class="nav__link nav__link--inside">Carga Rutas</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="cargar-vendedores.html" class="nav__link nav__link--inside">Carga Vendedores</a>
+                    </li>
+                 </ul>
+
+             </li>
+        </ul>
+    </nav>
+    
+    <div class="container"  style="margin-left: 400px;">
+        <div class="section">
+
+            <button class="btn" id="boton" onclick="cargarInventario()">Cargar productos</button>
+
+            <table>
+                <thead>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                </thead>
+                <tbody id="res">
+
+                </tbody>
+            </table>
+            <br/>
+            <h5 id="message" style="text-align: center;">Sin productos</h5>
+            <div id="main" style="align-items: center; align-content: center; text-align: center; display: none;">
+                <h4>Reporte de inventario</h1>
+            </div>
+
+    </div>
+    <script src="menu.js"></script>
+    <script src="./node_modules/viz.js/viz.js"></script>
+    <script src="./node_modules/viz.js/full.render.js"></script>
+    <script src="arbol-b.js"></script>
+    <script src="cargar-inventario.js">
+    </script>
+</body>
+</html>

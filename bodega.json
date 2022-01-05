@@ -1,0 +1,203 @@
+{
+    "rutas": [{
+            "id": 1,
+            "nombre": "bodega1",
+            "adyacentes": [{
+                    "id": 2,
+                    "nombre": "bodega2",
+                    "distancia": 3
+                },
+                {
+                    "id": 7,
+                    "nombre": "bodega7",
+                    "distancia": 3
+                },
+                {
+                    "id": 9,
+                    "nombre": "bodega9",
+                    "distancia": 6
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "bodega2",
+            "adyacentes": [{
+                    "id": 1,
+                    "nombre": "bodega1",
+                    "distancia": 3
+                },
+                {
+                    "id": 5,
+                    "nombre": "bodega5",
+                    "distancia": 8
+                },
+                {
+                    "id": 7,
+                    "nombre": "bodega7",
+                    "distancia": 3
+                },
+                {
+                    "id": 10,
+                    "nombre": "bodega10",
+                    "distancia": 7
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "bodega3",
+            "adyacentes": [{
+                    "id": 5,
+                    "nombre": "bodega5",
+                    "distancia": 6
+                },
+                {
+                    "id": 7,
+                    "nombre": "bodega7",
+                    "distancia": 8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "nombre": "bodega4",
+            "adyacentes": [{
+                    "id": 5,
+                    "nombre": "bodega5",
+                    "distancia": 5
+                },
+                {
+                    "id": 6,
+                    "nombre": "bodega6",
+                    "distancia": 4
+                },
+                {
+                    "id": 9,
+                    "nombre": "bodega9",
+                    "distancia": 5
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "nombre": "bodega5",
+            "adyacentes": [{
+                    "id": 2,
+                    "nombre": "bodega2",
+                    "distancia": 8
+                },
+                {
+                    "id": 3,
+                    "nombre": "bodega3",
+                    "distancia": 6
+                },
+                {
+                    "id": 4,
+                    "nombre": "bodega4",
+                    "distancia": 5
+                },
+                {
+                    "id": 6,
+                    "nombre": "bodega6",
+                    "distancia": 9
+                },
+                {
+                    "id": 10,
+                    "nombre": "bodega10",
+                    "distancia": 4
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "nombre": "bodega6",
+            "adyacentes": [{
+                    "id": 4,
+                    "nombre": "bodega4",
+                    "distancia": 4
+                },
+                {
+                    "id": 5,
+                    "nombre": "bodega5",
+                    "distancia": 9
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "nombre": "bodega7",
+            "adyacentes": [{
+                    "id": 1,
+                    "nombre": "bodega1",
+                    "distancia": 3
+                },
+                {
+                    "id": 2,
+                    "nombre": "bodega2",
+                    "distancia": 3
+                },
+                {
+                    "id": 3,
+                    "nombre": "bodega3",
+                    "distancia": 8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "nombre": "bodega8",
+            "adyacentes": [{
+                    "id": 9,
+                    "nombre": "bodega9",
+                    "distancia": 7
+                },
+                {
+                    "id": 10,
+                    "nombre": "bodega10",
+                    "distancia": 4
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "nombre": "bodega9",
+            "adyacentes": [{
+                    "id": 1,
+                    "nombre": "bodega1",
+                    "distancia": 6
+                },
+                {
+                    "id": 4,
+                    "nombre": "bodega4",
+                    "distancia": 5
+                },
+                {
+                    "id": 8,
+                    "nombre": "bodega8",
+                    "distancia": 7
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "nombre": "bodega10",
+            "adyacentes": [{
+                    "id": 2,
+                    "nombre": "bodega2",
+                    "distancia": 7
+                },
+                {
+                    "id": 5,
+                    "nombre": "bodega5",
+                    "distancia": 4
+                },
+                {
+                    "id": 8,
+                    "nombre": "bodega8",
+                    "distancia": 4
+                }
+            ]
+        }
+    ]
+}

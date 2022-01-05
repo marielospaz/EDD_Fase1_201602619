@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carga de Inventario</title>
+
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+</head>
+<body id="body">
+
+    <div class="container">
+        <div class="section">
+
+            <button class="btn" id="boton" onclick="cargarVentas()">Cargar ventas</button>
+
+            <table>
+                <thead>
+                    <th>Vendedor</th>
+                    <th>Cliente</th>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                </thead>
+                <tbody id="res">
+
+                </tbody>
+            </table>
+            <br/>
+            <h5 id="message" style="text-align: center;">Sin ventas</h5>
+            <div id="main" style="align-items: center; align-content: center; text-align: center; display: none;">
+                <h4>Reporte de ventas</h1>
+            </div>
+
+    </div>
+    <script src="./node_modules/viz.js/viz.js"></script>
+    <script src="./node_modules/viz.js/full.render.js"></script>
+    <script src="tabla-hash.js"></script>
+    <script src="cargar-ventas.js">
+    </script>
+</body>
+</html>

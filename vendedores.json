@@ -1,0 +1,73 @@
+{
+    "vendedores": [{
+            "id": 1,
+            "nombre": "juan",
+            "edad": 25,
+            "correo": "juan@gmail.com",
+            "password": "juan1"
+        },
+        {
+            "id": 2,
+            "nombre": "pedro",
+            "edad": 30,
+            "correo": "pedro@gmail.com",
+            "password": "pedrojr"
+        },
+        {
+            "id": 3,
+            "nombre": "estuardo",
+            "edad": 22,
+            "correo": "estuardo@gmail.com",
+            "password": "estuardito"
+        },
+        {
+            "id": 4,
+            "nombre": "javier",
+            "edad": 27,
+            "correo": "javier@gmail.com",
+            "password": "javiii"
+        },
+        {
+            "id": 5,
+            "nombre": "miguel",
+            "edad": 20,
+            "correo": "mieguel@gmail.com",
+            "password": "miguelito"
+        },
+        {
+            "id": 6,
+            "nombre": "luisa",
+            "edad": 33,
+            "correo": "luisa@gmail.com",
+            "password": "luisa777"
+        },
+        {
+            "id": 7,
+            "nombre": "vegeta",
+            "edad": 27,
+            "correo": "vegeta777@gmail.com",
+            "password": "vegeta777"
+        },
+        {
+            "id": 8,
+            "nombre": "martin",
+            "edad": 33,
+            "correo": "martin@gmail.com",
+            "password": "mariin"
+        },
+        {
+            "id": 9,
+            "nombre": "maria",
+            "edad": 21,
+            "correo": "maria@gmail.com",
+            "password": "mari_a"
+        },
+        {
+            "id": 10,
+            "nombre": "alvaro",
+            "edad": 41,
+            "correo": "alvaro@gmail.com",
+            "password": "password"
+        }
+    ]
+}
